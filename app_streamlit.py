@@ -2,17 +2,11 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Configuración de la página
 st.set_page_config(page_title="Predictor de MOS WCDMA", page_icon="📡")
 
-# Cargar el modelo
-#modelopredictor = joblib.load("../models/modelo_randon_forest_200_10_5_2.pkl")
 modelopredictor = joblib.load("modelo_randon_forest_200_10_5_2.pkl")
 
-
-
-
-# Estilo personalizado (similar al CSS de index.html)
+#Aqui ajusto mi ccs
 st.markdown("""
     <style>
     .main {
@@ -37,7 +31,7 @@ st.markdown("""
         margin-top: 30px;
         padding: 15px;
         border-radius: 10px;
-        color: #2d572c;
+        color: #000000c;
     }
     .stButton>button {
         background-color: #007BFF;
