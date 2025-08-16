@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("/src/static/images/fondo.jpg");
+        background-image: url("mos3g.jpg");
         background-size: cover;        /* cubre toda la ventana */
         background-position: center;   /* centra la imagen */
         background-repeat: no-repeat;  /* evita que se repita */
