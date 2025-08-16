@@ -6,8 +6,21 @@ st.set_page_config(page_title="Predictor de MOS WCDMAxc", page_icon="📡")
 
 modelopredictor = joblib.load("modelo_randon_forest_200_10_5_2.pkl")
 
-#Aqui ajusto mi ccs
 
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("/src/static/fondo.jpg");
+        background-size: cover;        /* cubre toda la ventana */
+        background-position: center;   /* centra la imagen */
+        background-repeat: no-repeat;  /* evita que se repita */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
