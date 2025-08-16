@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("/src/static/fondo.jpg");
+        background-image: url("/src/static/images/fondo.jpg");
         background-size: cover;        /* cubre toda la ventana */
         background-position: center;   /* centra la imagen */
         background-repeat: no-repeat;  /* evita que se repita */
@@ -26,7 +26,7 @@ st.markdown(
 
 
 # Título
-st.title("Predictor de MOS WCDMA")
+st.title("Predictor de MOS WCDMAA")
 
 # Formulario
 with st.form(key="mos_predictor_form"):
