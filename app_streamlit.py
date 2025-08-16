@@ -10,7 +10,7 @@ modelopredictor = joblib.load("modelo_randon_forest_200_10_5_2.pkl")
 st.markdown("""
     <style>
     .main {
-        background-color: rgba(127, 175, 179, 0.384);
+        background-color: rgba(127, 00, 179, 0.384);
         padding: 20px;
     }
     .stApp {
@@ -31,10 +31,10 @@ st.markdown("""
         margin-top: 30px;
         padding: 15px;
         border-radius: 10px;
-        color: #000000c;
+        color: #00000ff;
     }
     .stButton>button {
-        background-color: #007BFF;
+        background-color: #ffff00;
         color: #fff;
         padding: 12px;
         border: none;
@@ -43,7 +43,7 @@ st.markdown("""
         font-size: 16px;
     }
     .stButton>button:hover {
-        background-color: #0056b3;
+        background-color: #00ff00;
     }
     </style>
 """, unsafe_allow_html=True)
