@@ -15,7 +15,7 @@ st.markdown(
         background-image: url("mos3g.jpg");
         max-width: 600px;
         margin: 50px auto;
-        background-color: #fff;
+        background-color: #ff0000;
         padding: 30px;
         border-radius: 25px;
         box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
@@ -29,7 +29,7 @@ st.markdown(
 
 
 # Título
-st.title("Predictor de MOS WCDMAC")
+st.title("Predictor de MOS WCDMAD")
 
 # Formulario
 with st.form(key="mos_predictor_form"):
