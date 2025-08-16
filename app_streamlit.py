@@ -13,9 +13,7 @@ st.markdown(
     <style>
     .stApp {
         background-image: url("mos3g.jpg");
-        background-size: cover;        /* cubre toda la ventana */
-        background-position: center;   /* centra la imagen */
-        background-repeat: no-repeat;  /* evita que se repita */
+
     }
     </style>
     """,
@@ -26,7 +24,7 @@ st.markdown(
 
 
 # Título
-st.title("Predictor de MOS WCDMAA")
+st.title("Predictor de MOS WCDMAB")
 
 # Formulario
 with st.form(key="mos_predictor_form"):
