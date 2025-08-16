@@ -20,6 +20,11 @@ st.markdown(
         border-radius: 25px;
         box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
     }
+
+    .stButton>button:hover {
+        background-color: #00ff00;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
@@ -29,7 +34,7 @@ st.markdown(
 
 
 # Título
-st.title("Predictor de MOS WCDMAD")
+st.title("Predictor de MOS WCDMAF")
 
 # Formulario
 with st.form(key="mos_predictor_form"):
