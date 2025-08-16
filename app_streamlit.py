@@ -2,51 +2,15 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-st.set_page_config(page_title="Predictor de MOS WCDMAA", page_icon="📡")
+st.set_page_config(page_title="Predictor de MOS WCDMAxc", page_icon="📡")
 
 modelopredictor = joblib.load("modelo_randon_forest_200_10_5_2.pkl")
 
 #Aqui ajusto mi ccs
-st.markdown("""
-    <style>
-    .main {
-        background-color: rgba(127, 00, 179, 0.384);
-        padding: 20px;
-    }
-    .stApp {
-        max-width: 600px;
-        margin: 50px auto;
-        background-color: #fff;
-        padding: 30px;
-        border-radius: 25px;
-        box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
-    }
-    h1 {
-        text-align: center;
-        color: #333;
-        margin-bottom: 30px;
-    }
-    h3 {
-        text-align: center;
-        margin-top: 30px;
-        padding: 15px;
-        border-radius: 10px;
-        color: #00000ff;
-    }
-    .stButton>button {
-        background-color: #ffff00;
-        color: #fff;
-        padding: 12px;
-        border: none;
-        border-radius: 8px;
-        width: 100%;
-        font-size: 16px;
-    }
-    .stButton>button:hover {
-        background-color: #00ff00;
-    }
-    </style>
-""", unsafe_allow_html=True)
+
+
+
+
 
 # Título
 st.title("Predictor de MOS WCDMA")
