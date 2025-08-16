@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-st.set_page_config(page_title="Predictor de MOS WCDMA", page_icon="📡")
+st.set_page_config(page_title="Predictor de MOS WCDMAA", page_icon="📡")
 
 modelopredictor = joblib.load("modelo_randon_forest_200_10_5_2.pkl")
 
